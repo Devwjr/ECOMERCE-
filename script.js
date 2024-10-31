@@ -9,15 +9,15 @@ function exibirProdutos() {
     produtosContainer.innerHTML = ''; 
 
     const produtos = [
-    { nome: 'Fones', preco: 99.99, img: '/img/fones.jpg' },
-    { nome: 'Gabinete', preco: 390.90, img: '/img/gabinete.jpeg' },
-    { nome: 'Notebook', preco: 1200.00, img: '/img/notebook.jpg' },
-    { nome: 'Periféricos', preco: 150.00, img: '/img/periféricos.jpg' },
-    { nome: 'Placa mãe', preco: 500.00, img: '/img/placamae.jpg' },
-    { nome: 'Memória RAM', preco: 90.00, img: '/img/ram.jpg' },
-    { nome: 'TV LED', preco: 900.00, img: '/IMG/monitor.jpeg' }, 
-    { nome: 'placa de vídeo', preco: 1990.00, img: '/img/placadevideo.jpg' }, 
-    { nome: 'Processador', preco: 490.99, img: '/img/intel.jpg' },
+    { nome: 'Fones', preco: 99.99, img: 'fones.jpg' },
+    { nome: 'Gabinete', preco: 390.90, img: 'gabinete.jpeg' },
+    { nome: 'Notebook', preco: 1200.00, img: 'notebook.jpg' },
+    { nome: 'Periféricos', preco: 150.00, img: 'periféricos.jpg' },
+    { nome: 'Placa mãe', preco: 500.00, img: 'placamae.jpg' },
+    { nome: 'Memória RAM', preco: 90.00, img: 'ram.jpg' },
+    { nome: 'TV LED', preco: 900.00, img: 'monitor.jpeg' }, 
+    { nome: 'placa de vídeo', preco: 1990.00, img: 'placadevideo.jpg' }, 
+    { nome: 'Processador', preco: 490.99, img: 'intel.jpg' },
     
 ];
 
