@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4; 
+}
+
+.home {
+    display: flex;
+    justify-content: flex-start; 
+    align-items: center; 
+    width: 100%;
+}
+
+button.ver-carrinho {
+    margin-left: auto;
+    top: 20px;
+    background-color: #007BFF;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.fundo {
+    width: 100%;
+    height: 600px;
+    background-image: url('/IMG/processador.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex; 
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF; 
+    text-align: center;
+    position: relative; 
+}
+
+.fundo::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5); 
+    z-index: 1; 
+}
+
+.fundo h2 {
+    position: left; 
+    z-index: 2; 
+    font-size:  1.5rem;
+    margin: 0;
+    top: -30px; 
+    font-family:arial;
+}
+
+.produtos {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(290px, 2fr)); 
+    gap: 20px;
+    padding: 20px;
+}
+
+.produto {
+    background-color: #fff;
+    padding: 15px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+.produto:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.produto img {
+    width: 100%;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 10px 10px 0 0;
+}
+
+.produto h2 {
+    margin-top: 10px;
+    font-size: 1.5rem;
+}
+
+.produto p {
+    color: #666;
+    font-size: 1rem;
+}
+
+.produto button {
+    background-color: #007bff;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.produto button:hover {
+    background-color: #0056b3;
+}
+
+button.ver-carrinho:hover {
+    background-color: #0056b3;
+}
+
+.carrinhoBtn {
+    margin-left: auto;
+    margin-right: 20px;
+}
+
+footer {
+  background-color: #000000;
+  color: white;
+  text-align: center;
+  padding: 10px; 
+  position: fixed;  
+  bottom: 0;
+  left: 0;
+  right: 0;
+}

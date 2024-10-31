@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>E-commerce</title>
+    <link rel="stylesheet" href="styles02.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+      <!--barra de navegação-->
+      <nav class="navbar bg-body-tertiary">
+        <div class="container-fluid">
+            <a class="navbar-brand">Tech Shop</a>
+            <button onclick="verCarrinho()" class="btn btn-outline-dark">
+                <i class="fas fa-shopping-cart"></i> Ver Carrinho
+            </button>
+        </div>
+      </nav>
+
+      <div class="home">
+        <div class="fundo">
+          <h2></h2>
+        </div>
+      </div>
+    
+    <div class="produtos">
+        <div class="produto">
+            <img src="/IMG/fones.jpg" alt="Produto 1">
+            <h2>Fones de ouvido via bluetooth</h2>
+            <p>R$ 99,99</p>
+            <button onclick="adicionarAoCarrinho('Produto 1', 99,99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="/img/gabinete.jpeg" alt="Produto 2">
+            <h2> Gabinete</h2>
+            <p>R$ 399,99</p>
+            <button onclick="adicionarAoCarrinho('Produto 2', 5.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="/img/notebook.jpg" alt="Produto 3">
+            <h2>Notebook</h2>
+            <p>R$ 1700,99</p>
+            <button onclick="adicionarAoCarrinho('Produto 3', 7.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="/img/periféricos.jpg" alt="Produto 3">
+            <h2>Periféricos</h2>
+            <p>R$ 177,99</p>
+            <button onclick="adicionarAoCarrinho('Produto 3', 7.99)">Adicionar ao Carrinho</button>
+        </div>
+        <div class="produto">
+            <img src="/IMG/ram.jpg" alt="Produto 3">
+            <h2>memória ram </h2>
+            <p>R$ 199,99</p>
+            <button onclick="adicionarAoCarrinho('memoria ram', 199,99)">Adicionar ao Carrinho</button>
+        </div>
+          <div class="produto">
+            <img src="/IMG/monitor.jpeg" alt="Produto 3">
+            <h2>TV LED 14' </h2>
+            <p>R$ 299,99</p>
+            <button onclick="adicionarAoCarrinho('TV LED', 199,99)">Adicionar ao Carrinho</button>
+        </div>
+          <div class="produto">
+            <img src="/IMG/placadevideo.jpg" alt="Produto 3">
+            <h2>placa de vídeo</h2>
+            <p>R$ 1990,99</p>
+            <button onclick="adicionarAoCarrinho('placa de vídeo', 1990,99)">Adicionar ao Carrinho</button>
+        </div>
+          <div class="produto">
+            <img src="/IMG/intel.jpg" alt="Produto 3">
+            <h2>Processador</h2>
+            <p>Processador Intel Core i5-12400F</p>
+            <p>R$ 490,99</p>
+            <button onclick="adicionarAoCarrinho('memoria ram', 199,99)">Adicionar ao Carrinho</button>
+        </div>
+    </div>
+  
+    <!-- Footer -->
+     <footer class="text-center py-4">
+        <div class="container">
+            <p>&copy; 2024 | Todos os direitos reservados.</p>
+        </div>
+    </footer>
+
+    <!-- js-->
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.min.js" integrity="sha384-0pUGZvbkm6XF6gxjEnlmuGrJXVbNuzT9qBBavbLwCsOGabYfZo0T0to5eqruptLy" crossorigin="anonymous"></script>
+</body>
+</html>
