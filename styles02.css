@@ -27,7 +27,7 @@ button.ver-carrinho {
 .fundo {
     width: 100%;
     height: 600px;
-    background-image: url('/IMG/processador.jpg');
+    background-image: url('processador.jpg');
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
